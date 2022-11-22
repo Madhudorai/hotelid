@@ -9,6 +9,7 @@ First used pretrained VGG19 as base network in deep metric loss (triplet loss mo
 ![image](https://user-images.githubusercontent.com/76121652/203395663-4561ce80-5c85-45a8-be8e-0ef0273df1ba.png)
 
 After this training, removed final layer and added softmax to classify images. To decrease overfitting, data augmentation applied. Code in Tensorflow, Keras 
+![Screenshot (528)](https://user-images.githubusercontent.com/76121652/203397157-6588e99f-06f6-40fc-96cc-9b124d4b53f9.png)
 
 Future changes to be made:
 Using softmax scores, output 5 possible predictions. Evaluate using Mean average precision.
