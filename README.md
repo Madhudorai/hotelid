@@ -14,8 +14,6 @@ After this training, removed final layer and added softmax to classify images. T
 Future changes to be made:
 Using softmax scores, output 5 possible predictions. Evaluate using Mean average precision.
 Try more techniques to prevent overfitting like dropout regularization
-Using softmax temperature activation function in final model, instead of softmax 
-Pre-training network on hotels50K dataset or arcface dataset 
 Need to collect more real world data 
 
 Credits for model ideation: Stanford University Yuyu Lin, Peng Chen, Chi On Ho
